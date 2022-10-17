@@ -1,6 +1,6 @@
-﻿#modname "Abysia Enhanced v1.00"
+﻿#modname "Abysia Enhanced v1.10"
 #description "增加专属准神。"
-#version 1.00
+#version 1.10
 
 
 
@@ -17,7 +17,33 @@
 
 ----------Nation-----------
 
+----------Item-----------
 
+
+
+#selectitem 545
+#name "血染的真理"
+#descr "这个猩红的卷轴记载着世间的真理，但只有以自身鲜血浇灌者方能窥之。
+它会带来诅咒与疯狂，并且每日都要从持有的伤口痛饮鲜血。"
+#constlevel 12
+#mainpath 7
+#mainlevel 5
+#secondarypath 4
+#secondarylevel 5
+#copyspr 393
+#spell "创世记录"
+#noundead
+#noinanim
+#curse
+#bers
+#nhwound
+#unique
+#nofind
+#end
+
+
+
+----------Item-----------
 
 ----------Unit-----------
 
@@ -40,9 +66,12 @@
 #mapmove 20
 #ap 14
 #mr 18
--- #clearweapons
--- #weapon 29 -- Claw
--- #weapon 29 -- Claw
+#clearweapons
+#weapon 320 -- 火焰拳
+#weapon 320 -- 火焰拳
+#weapon 383 -- 投掷火焰
+#weapon 61  -- 火焰吐息
+#weapon 710 -- 火焰吐息(光束)
 #clearspec
 #fireres 40
 #poisonres 40
@@ -75,7 +104,7 @@
 #magicskill 7 3
 #masterrit 1
 #nowish
--- #startitem 544
+#startitem 545
 #end
 
 
